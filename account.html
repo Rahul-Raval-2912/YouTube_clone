@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone - Profile</title>
+    <link rel="stylesheet" href="stylesheet/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="menu-icon">☰</div>
+            <img src="img/ic1.png" alt="YouTube Logo" class="youtube-logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search">
+            <button class="search-button">🔍</button>
+            <button class="mic-button">🎤</button>
+        </div>
+        <div class="header-right">
+            <div class="header-icon">📹</div>
+            <div class="header-icon">🔔</div>
+            <div class="header-icon dark-mode-toggle">🌙</div>
+            <div class="header-icon">👤</div>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <nav class="sidebar-nav">
+            <a href="index.html" class="sidebar-item">
+                <span class="sidebar-icon">🏠</span>
+                <span class="sidebar-text">Home</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span class="sidebar-icon">📹</span>
+                <span class="sidebar-text">Shorts</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span class="sidebar-icon">📋</span>
+                <span class="sidebar-text">Subscriptions</span>
+            </a>
+            <a href="account.html" class="sidebar-item active">
+                <span class="sidebar-icon">👤</span>
+                <span class="sidebar-text">You</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Profile Container -->
+    <div class="profile-container">
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <img src="img/profile.jpeg" alt="User" onerror="this.style.display='none';">
+            </div>
+            <div class="profile-details">
+                <div class="profile-name">Rahul Raval</div>
+                <div class="profile-handle">@rahulraval2634 <a href="#" class="view-channel">View channel</a></div>
+            </div>
+            <div class="profile-actions">
+                <button class="profile-action">Switch account</button>
+                <button class="profile-action">Google Account</button>
+            </div>
+        </div>
+
+        <!-- History Section -->
+        <div class="profile-section">
+            <h2>History <a href="#" class="view-all">View all</a></h2>
+            <div class="video-grid-profile">
+                <div class="video-card-profile">
+                    <div class="video-thumbnail-profile" style="background-image: url('img/sea.jpeg');">
+                        <span class="video-duration">1:02:45</span>
+                    </div>
+                    <div class="video-info-profile">
+                        <div class="video-title-profile">[Hindi] Sea of Thieves | New Fire Update...</div>
+                        <div class="video-meta-profile">
+                            <div class="channel-avatar">
+                                <img src="img/gamer.jpeg" alt="RON Gaming Avatar" onerror="this.style.display='none';">
+                            </div>
+                            <div class="channel-name">RON Gaming</div> • 914 watching • 52 minutes ago
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card-profile">
+                    <div class="video-thumbnail-profile" style="background-image: url('img/ff.jpg');">
+                        <span class="video-duration">5:23</span>
+                    </div>
+                    <div class="video-info-profile">
+                        <div class="video-title-profile">alok is over power</div>
+                        <div class="video-meta-profile">
+                            <div class="channel-avatar">
+                                <img src="img/ffGamer.jpeg" alt="WAGAH BORDI Avatar" onerror="this.style.display='none';">
+                            </div>
+                            <div class="channel-name">WAGAH BORDI</div> • 2.1K views • 52 minutes ago
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card-profile">
+                    <div class="video-thumbnail-profile" style="background-image: url('img/sagar.jpg');">
+                        <span class="video-duration">12:45</span>
+                    </div>
+                    <div class="video-info-profile">
+                        <div class="video-title-profile">sagar shah spoiled</div>
+                        <div class="video-meta-profile">
+                            <div class="channel-avatar">
+                                <img src="img/samay.jpeg" alt="Samay Raina Avatar" onerror="this.style.display='none';">
+                            </div>
+                            <div class="channel-name">Samay Raina Official</div> • 81.2K views • Streamed 4 years ago
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card-profile">
+                    <div class="video-thumbnail-profile" style="background-image: url('img/chess.jpeg');">
+                        <span class="video-duration">8:17</span>
+                    </div>
+                    <div class="video-info-profile">
+                        <div class="video-title-profile">best of week-5 | chess</div>
+                        <div class="video-meta-profile">
+                            <div class="channel-avatar">
+                                <img src="img/samay.jpeg" alt="Samay Raina Avatar" onerror="this.style.display='none';">
+                            </div>
+                            <div class="channel-name">Samay Raina Official</div> • 163K views • 2 years ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Playlists Section -->
+        <div class="profile-section">
+            <h2>Playlists  <a href="#" class="view-all">View all</a></h2>
+            <div class="playlists-grid">
+                <div class="playlist-card">
+                    <div class="playlist-thumbnail" style="background-image: url('img/sea.jpeg');"></div>
+                    <div class="playlist-info">
+                        <div class="playlist-title">Sea of Thieves</div>
+                        <div class="playlist-count">5,000 videos</div>
+                    </div>
+                </div>
+                <div class="playlist-card">
+                    <div class="playlist-thumbnail" style="background-image: url('img/th.jpeg');"></div>
+                    <div class="playlist-info">
+                        <div class="playlist-title">Chess</div>
+                        <div class="playlist-count">7 videos</div>
+                    </div>
+                </div>
+                <div class="playlist-card">
+                    <div class="playlist-thumbnail" style="background-image: url('img/th6.jpeg');"></div>
+                    <div class="playlist-info">
+                        <div class="playlist-title">Linear Differential Equation with Constant...</div>
+                        <div class="playlist-count">7 videos</div>
+                    </div>
+                </div>
+                <div class="playlist-card">
+                    <div class="playlist-thumbnail" style="background-image: url('img/th4.jpg');"></div>
+                    <div class="playlist-info">
+                        <div class="playlist-title">Chess Highlights</div>
+                        <div class="playlist-count">10 videos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Liked Videos Section -->
+        <div class="profile-section">
+            <h2>Liked videos <a href="#" class="view-all">View full playlist</a></h2>
+            <div class="video-grid-profile">
+                <div class="video-card-profile">
+                    <div class="video-thumbnail-profile" style="background-image: url('img/sea.jpeg');">
+                        <span class="video-duration">1:02:45</span>
+                    </div>
+                    <div class="video-info-profile">
+                        <div class="video-title-profile">[Hindi] Sea of Thieves | New Fire Update...</div>
+                        <div class="video-meta-profile">
+                            <div class="channel-avatar">
+                                <img src="img/gamer.jpeg" alt="RON Gaming Avatar" onerror="this.style.display='none';">
+                            </div>
+                            <div class="channel-name">RON Gaming</div> • 914 watching • 52 minutes ago
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card-profile">
+                    <div class="video-thumbnail-profile" style="background-image: url('img/ff.jpg');">
+                        <span class="video-duration">5:23</span>
+                    </div>
+                    <div class="video-info-profile">
+                        <div class="video-title-profile">alok is over power</div>
+                        <div class="video-meta-profile">
+                            <div class="channel-avatar">
+                                <img src="img/ffGamer.jpeg" alt="WAGAH BORDI Avatar" onerror="this.style.display='none';">
+                            </div>
+                            <div class="channel-name">WAGAH BORDI</div> • 2.1K views • 52 minutes ago
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card-profile">
+                    <div class="video-thumbnail-profile" style="background-image: url('img/sagar.jpg');">
+                        <span class="video-duration">12:45</span>
+                    </div>
+                    <div class="video-info-profile">
+                        <div class="video-title-profile">sagar shah spoiled </div>
+                        <div class="video-meta-profile">
+                            <div class="channel-avatar">
+                                <img src="img/samay.jpeg" alt="Samay Raina Avatar" onerror="this.style.display='none';">
+                            </div>
+                            <div class="channel-name">Samay Raina Official</div> • 81.2K views • Streamed 4 years ago
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card-profile">
+                    <div class="video-thumbnail-profile" style="background-image: url('img/chess.jpeg');">
+                        <span class="video-duration">8:17</span>
+                    </div>
+                    <div class="video-info-profile">
+                        <div class="video-title-profile">best of week-5 | chess</div>
+                        <div class="video-meta-profile">
+                            <div class="channel-avatar">
+                                <img src="img/samay.jpeg" alt="Samay Raina Avatar" onerror="this.style.display='none';">
+                            </div>
+                            <div class="channel-name">Samay Raina Official</div> • 163K views • 2 years ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript/javascript.js"></script>
+</body>
+</html>

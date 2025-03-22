@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="stylesheet/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+            <img src="img/ic1.png" alt="YouTube Logo" class="youtube-logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search">
+            <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="mic-button"><i class="fa-solid fa-microphone"></i></button>
+        </div>
+        <div class="header-right">
+            <div class="header-icon"><i class="fa-solid fa-plus"></i> <small>create</small></div>
+            <div class="header-icon"><i class="fa-solid fa-bell"></i></div>
+            <div class="header-icon dark-mode-toggle">🌙</div>
+            <div class="header-icon">👤</div>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <nav class="sidebar-nav">
+            <a href="#" class="sidebar-item">
+                <span class="sidebar-icon">🏠</span>
+                <span class="sidebar-text">Home</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span class="sidebar-icon">📹</span>
+                <span class="sidebar-text">Shorts</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <span class="sidebar-icon">📋</span>
+                <span class="sidebar-text">Subscriptions</span>
+            </a>
+            <a href="account.html" class="sidebar-item">
+                <span class="sidebar-icon">👤</span>
+                <span class="sidebar-text">You</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Category Filter Bar -->
+        <div class="category-bar">
+            <button class="category-item active">All</button>
+            <button class="category-item">Gaming</button>
+            <button class="category-item">Tanmay Bhat</button>
+            <button class="category-item">Live</button>
+            <button class="category-item">Board Games</button>
+            <button class="category-item">Among Us</button>
+            <button class="category-item">Audio Commentaries</button>
+            <button class="category-item">Gambit</button>
+            <button class="category-item">Clash of Clans</button>
+            <button class="category-item">Game Shows</button>
+        </div>
+
+        <!-- Video Grid (Above Shorts) -->
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/virat.jpeg');">
+                    <span class="video-duration">4:15</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">virat run machine kohli</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/RCBlogo.jpeg" alt="RCB" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">RCB Insider</div>
+                    </div>
+                    <div class="view-count">1.2M views • 3 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/th5.jpeg');">
+                    <span class="video-duration">10:30</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">how to find this ??</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/gamer.jpeg" alt="Abhishek Pandey Avatar" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">abhishekpandey</div>
+                    </div>
+                    <div class="view-count">850K views • 1 week ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/th3.jpeg');">
+                    <span class="video-duration">8:17</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">this is how it done...</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/msblogo.webp" alt="ms gen" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">Bussiness 3D</div>
+                    </div>
+                    <div class="view-count">2.3M views • 5 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/coc.jpg');">
+                    <span class="video-duration">6:50</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">3 star attack like joker</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/clashofclans.jpg" alt="Clash of Clans Avatar" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">sumit 007</div>
+                    </div>
+                    <div class="view-count">1.2M views • 3 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/chessgame.jpeg');">
+                    <span class="video-duration">15:20</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">play like Tal super GM</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/chesslogo.jpeg" alt="play like Tal" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">chess hero</div>
+                    </div>
+                    <div class="view-count">850K views • 1 week ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/narutopage.jpg');">
+                    <span class="video-duration">12:10</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">fight like pro</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/narutologo.jpeg" alt="Naruto Explained Avatar" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">Naruto Explained</div>
+                    </div>
+                    <div class="view-count">2.3M views • 5 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/th.jpeg');">
+                    <span class="video-duration">5:23</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">This is how boom blast!</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/gamer.jpeg" alt="abhishekpandey" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">abhishekpandey</div>
+                    </div>
+                    <div class="view-count">1.2M views • 3 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/th2.png');">
+                    <span class="video-duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">play like pro bro </div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/gamer.jpeg" alt="Abhishek Pandey Avatar" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">abhishekpandey</div>
+                    </div>
+                    <div class="view-count">850K views • 1 week ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/java.jpeg');">
+                    <span class="video-duration">20:15</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">java project idea</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/coder.jpeg" alt="javaPRO" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">JavaPRO</div>
+                    </div>
+                    <div class="view-count">2.3M views • 5 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/mrbean2.jpeg');">
+                    <span class="video-duration">7:40</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Mr. bean</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/cn.jpeg" alt="cartoon network" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">cartoon network</div>
+                    </div>
+                    <div class="view-count">1.2M views • 3 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/gukeshthumbnail.jpeg');">
+                    <span class="video-duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">the youngest world champion</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/chessbase.jpeg" alt="chess base india" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">chess base india</div>
+                    </div>
+                    <div class="view-count">850K views • 1 week ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/amongus.jpg');">
+                    <span class="video-duration">8:17</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">among with friend</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/samay.jpeg" alt="samay raina" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">samay Raina</div>
+                    </div>
+                    <div class="view-count">2.3M views • 5 days ago</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shorts Section -->
+        <div class="shorts-section">
+            <h2>Shorts</h2>
+            <div class="shorts-grid">
+                <div class="shorts-card">
+                    <div class="video-thumbnail" style="background-image: url('img/shorts1.jpeg');">
+                        <span class="video-duration">0:15</span>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">late night drive</div>
+                        <div class="channel-info">
+                            
+                            <div class="channel-name"></div>
+                        </div>
+                        <div class="view-count">1.8M views</div>
+                    </div>
+                </div>
+                <div class="shorts-card">
+                    <div class="video-thumbnail" style="background-image: url('img/short2.jpeg');">
+                        <span class="video-duration">0:08</span>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">city night</div>
+                        <div class="channel-info">
+                            
+                            <div class="channel-name"></div>
+                        </div>
+                        <div class="view-count">2.5M views </div>
+                    </div>
+                </div>
+                <div class="shorts-card">
+                    <div class="video-thumbnail" style="background-image: url('img/short3.jpeg');">
+                        <span class="video-duration">0:32</span>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">क्या Power का इस्तेमाल</div>
+                        <div class="channel-info">
+                            
+                            <div class="channel-name"></div>
+                        </div>
+                        <div class="view-count">900K views </div>
+                    </div>
+                </div>
+                <div class="shorts-card">
+                    <div class="video-thumbnail" style="background-image: url('img/short5.jpg');">
+                        <span class="video-duration">0:12</span>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">Gaming set-up video</div>
+                        <div class="channel-info">
+                            
+                            <div class="channel-name"></div>
+                        </div>
+                        <div class="view-count">1.3M views </div>
+                    </div>
+                </div>
+                <div class="shorts-card">
+                    <div class="video-thumbnail" style="background-image: url('img/short8.jpeg');">
+                        <span class="video-duration">0:09</span>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">Travel on bickcycle</div>
+                        <div class="channel-info">
+                            
+                            <div class="channel-name"></div>
+                        </div>
+                        <div class="view-count">1.5M views • 2 days ago</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video  -->
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/ff.jpg');">
+                    <span class="video-duration">14:25</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">28 kills no jokes</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/ffGamer.jpeg" alt="ff gamer" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">ff gamer</div>
+                    </div>
+                    <div class="view-count">1.2M views • 3 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/thor.jpeg');">
+                    <span class="video-duration">3:58</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">thunder god</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/marvel.jpeg" alt="marvel" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">marvel</div>
+                    </div>
+                    <div class="view-count">850K views • 1 week ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/samaychess.jpg');">
+                    <span class="video-duration">22:15</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">good night chess</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/samay.jpeg" alt="samay raina" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">samay Raina</div>
+                    </div>
+                    <div class="view-count">2.3M views • 5 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/divyachess.jpeg');">
+                    <span class="video-duration">3:58</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">divya the WGM </div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/chessbase.jpeg" alt="iChess Avatar" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">chess base india</div>
+                    </div>
+                    <div class="view-count">670K views • 2 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/caro-kann.jpg');">
+                    <span class="video-duration">10:20</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">caro-kann defance</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/chesslogo2.jpeg" alt="chess by rr" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">chess by rr</div>
+                    </div>
+                    <div class="view-count">950K views • 4 days ago</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-thumbnail" style="background-image: url('img/vdthumbnail.jpg');">
+                    <span class="video-duration">5:23</span>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">how vidit become number one in India</div>
+                    <div class="channel-info">
+                        <div class="channel-avatar">
+                            <img src="img/chessbase.jpeg" alt="Clash of Clans Avatar" onerror="this.style.display='none';">
+                        </div>
+                        <div class="channel-name">Chess base India</div>
+                    </div>
+                    <div class="view-count">1.2M views • 3 days ago</div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Loading Spinner -->
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 YouTube, Inc. | Terms | Privacy | About</p>
+    </footer>
+
+    <script src="javascript/javascript.js"></script>
+</body>
+</html>
