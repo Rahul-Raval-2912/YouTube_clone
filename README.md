@@ -3,13 +3,14 @@
 A static front-end web application mimicking YouTube's interface, built with HTML and CSS. Features include a responsive video grid, shorts section, profile page, and light/dark mode theming.
 
 ## Table of Contents
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
+- [Overview](#overview)
+- [Live Demo](#live-demo)
+- [Setup](#setup)
+- [How to Use](#how-to-use)
+- [File Structure](#file-structure)
+- [Tools and Technologies](#tools-and-technologies)
 - [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
 
