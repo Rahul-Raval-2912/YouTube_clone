@@ -30,4 +30,4 @@ For now, clone the repo and open `index.html` locally to explore.
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/[your-username]/[your-repo-name].git
+   git clone https://github.com/[Rahul-Raval-2912]/[YouTube_clone].git
