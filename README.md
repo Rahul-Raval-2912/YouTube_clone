@@ -1,33 +1,48 @@
-# YouTube Clone
+<h1 align="center">🎬 YouTube Clone</h1>
 
-A static front-end web application mimicking YouTube's interface, built with HTML and CSS. Features include a responsive video grid, shorts section, profile page, and light/dark mode theming.
+<p align="center">
+  A fully responsive, front-end clone of <strong>YouTube</strong> built using pure HTML, CSS, and JavaScript.  
+  <br><br>
+  🌐 <a href="https://rahul-raval-2912.github.io/YouTube_clone/">Live Demo</a> • 💻 <a href="https://github.com/Rahul-Raval-2912/YouTube_clone">Source Code</a>
+</p>
 
-## Table of Contents
-- [Overview](#overview)
-- [Live Demo](#live-demo)
-- [Setup](#setup)
-- [How to Use](#how-to-use)
-- [File Structure](#file-structure)
-- [Tools and Technologies](#tools-and-technologies)
-- [Screenshots](#screenshots)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
-## Features
-- Responsive layout for desktop, tablet, and mobile devices.
-- Toggleable light/dark mode using CSS variables.
-- Video grid with thumbnails, channel info, and metadata.
-- Shorts section with vertical 9:16 video previews.
-- Profile page displaying history, playlists, and liked videos.
-- Fixed header and expandable sidebar (JavaScript needed for full interactivity).
-- Scrollable category filter bar.
+## 📸 Preview
 
-## Demo
-*(Coming soon—plan to host on GitHub Pages or another platform)*  
-For now, clone the repo and open `index.html` locally to explore.
+![YouTube Clone Preview](img/screenshot.png) <!-- Replace with actual image path if needed -->
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/[Rahul-Raval-2912]/[YouTube_clone].git
+---
+
+## 🚀 Project Overview
+
+This project replicates the **look and feel of YouTube's interface**, including video thumbnails, navigation bar, shorts section, user profile layout, and more.
+
+✨ Built with simplicity and modern design principles in mind, it's a great start for those looking to practice front-end development and UI cloning.
+
+---
+
+## 🎯 Features
+
+- ✅ **Responsive Design** – Seamless viewing on mobile, tablet, and desktop  
+- 🌗 **Light & Dark Mode** – Toggle between themes with a smooth CSS switch  
+- 🎞️ **YouTube Shorts Layout** – Vertical previews just like the real thing  
+- 👤 **Profile Page** – Includes liked videos, playlists & history  
+- 🎨 **Clean UI** – Inspired by YouTube’s modern design  
+- 📦 **Organized Codebase** – Easy to navigate folder and file structure
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| HTML5      | Structure & Markup |
+| CSS3       | Styling, Layout, Responsive Design |
+| JavaScript | Light/Dark Mode, Interactivity |
+| GitHub Pages | Hosting & Deployment |
+
+---
+
+## 🗂️ Project Structure
+
